@@ -1,0 +1,173 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.conteiner {
+  width: 100vw;
+  margin: 0;
+}
+
+.content {
+  width: 87vw;
+  margin: 0 1.5em 0 1.5em;
+}
+
+.notFound {
+  margin: 0.85em 0 2.7em;
+  height: 1em;
+  font-family: 'Inconsolata';
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.scarecrow {
+  width: 76.5vw;
+  margin: 0 5.4vw;
+}
+
+.campHeader {
+  width: 90vw;
+  height: 142px;
+  margin-top: 1.25em;
+  margin-bottom: 0.625em;
+
+
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+
+.campText {
+  width: 84vw;
+  height: 81px;
+  margin: 0 0 3.33em;
+
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
+}
+
+
+.btnBack {
+  width: 216px;
+  height: 68px;
+  border: 0;
+  background: #333333;
+
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.sources {
+  margin-top: 8.15em;
+  margin-bottom: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875em;
+
+
+  text-align: center;
+
+  color: #BDBDBD;
+
+}
+
+span {
+  font-weight: 700;
+}
+
+
+
+@media (min-width: 1024px) {
+  body {
+    max-height: 1080px;
+
+  }
+
+
+  .content {
+    margin: 2.5em 0 0 4.8125em;
+  }
+
+  .header {
+    margin-bottom: 200px;
+  }
+
+
+  .visual {
+    width: 93.6vw;
+    display: flex;
+  }
+
+  .scarecrow {
+    margin: 0 118px 0 0;
+    width: 539.22px;
+  }
+
+  .campHeader {
+    font-size: 4em;
+    width: 48vw;
+    margin-top: 0;
+  }
+
+  .campText {
+    width: 27vw;
+    font-size: 1.5em;
+  }
+
+  .text {
+    width: 48vw;
+  }
+
+  .sources {
+    margin-top: 305px
+  }
+
+}
+
+
+@media (min-width: 2500px) {
+  .content {
+    width: 1510px;
+    margin: 2.5em 10em 0;
+  }
+
+  .visual {
+    width: 61.6vw;
+    display: flex;
+  }
+
+  .text {
+    width: 36vw;
+  }
+
+  .campHeader {
+    width: 36vw;
+
+  }
+}
+
+@media (max-width: 370px) {
+  .campHeader {
+    height: 230px;
+  }
