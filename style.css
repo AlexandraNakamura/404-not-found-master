@@ -139,13 +139,13 @@ span {
   }
 
   .sources {
-    margin-top: 185px
+    margin-top: 160px
   }
 
 }
 
 
-@media (min-width: 2500px) {
+@media (min-width: 1920px) {
   .conteiner {
     display: flex;
     justify-content: center;
