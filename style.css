@@ -104,7 +104,6 @@ span {
 
   }
 
-
   .content {
     margin: 2.5em 0 0 4.8125em;
   }
@@ -147,6 +146,11 @@ span {
 
 
 @media (min-width: 2500px) {
+  .conteiner {
+    display: flex;
+    justify-content: center;
+  }
+
   .content {
     width: 1510px;
     margin: 2.5em 10em 0;
